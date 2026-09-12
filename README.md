@@ -2,7 +2,7 @@
 
 A completely useless, mildly addictive blob you poke, drag, and fling around the screen. Built with nothing but HTML, CSS, and vanilla JavaScript — no frameworks, no build step, no dependencies.
 
-**[Live Demo](#)** — replace with your deployed link (GitHub Pages instructions below)
+**[Live Demo](https://b9401747-cell.github.io/chaos-blob/)**
 
 ## What it does
 
@@ -36,11 +36,7 @@ Or serve it with any static server, e.g. `npx serve .`
 
 ## Deploy to GitHub Pages
 
-```bash
-git push -u origin main
-```
-
-Then in the repo settings → **Pages**, set the source to the `main` branch (root), and your live demo link will be `https://<your-username>.github.io/<repo-name>/`.
+Already deployed for this repo — pushing to `main` is enough; GitHub Pages serves straight from the branch root.
 
 ---
 
