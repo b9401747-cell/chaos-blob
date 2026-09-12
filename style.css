@@ -10,7 +10,20 @@
   --shadow: rgba(34,25,51,0.18);
 }
 
-[data-theme="dark"] {
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #100c1c;
+    --bg2: #1a1330;
+    --text: #f1edff;
+    --text-dim: #a99fc9;
+    --card: rgba(255,255,255,0.06);
+    --card-border: rgba(255,255,255,0.08);
+    --accent: #a98bff;
+    --shadow: rgba(0,0,0,0.5);
+  }
+}
+
+:root[data-theme="dark"] {
   --bg: #100c1c;
   --bg2: #1a1330;
   --text: #f1edff;
